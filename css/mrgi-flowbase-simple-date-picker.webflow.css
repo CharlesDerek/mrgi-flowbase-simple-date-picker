@@ -1,0 +1,179 @@
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f8faff;
+}
+
+.form-div {
+  max-width: 800px;
+  padding: 44px 25px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px solid #e2e4e9;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.heading {
+  margin-bottom: 8px;
+  font-family: Sfprodisplay, sans-serif;
+  color: #303259;
+}
+
+.field-label {
+  font-family: Sfprodisplay, sans-serif;
+  color: #303259;
+}
+
+.field-label-2 {
+  font-family: Sfprodisplay, sans-serif;
+  color: #303259;
+}
+
+.text-field {
+  margin-bottom: 5px;
+  border: 1px solid #e2e4e9;
+  border-radius: 4px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  margin-top: 31px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 29px;
+  padding-left: 29px;
+  border-radius: 4px;
+  background-color: #7e32dd;
+}
+
+.link {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+  font-family: Sfprodisplay, sans-serif;
+  color: #303259;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.div-block {
+  margin-top: 25px;
+}
+
+.author-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 800px;
+  margin-top: 25px;
+  padding: 18px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: 1px solid #e2e4e9;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.div-block-2 {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  border-radius: 100px;
+  background-image: url('../images/kevin_1kevin.PNG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.author-name {
+  margin-left: 8px;
+  font-family: Sfprodisplay, sans-serif;
+  color: #303259;
+  font-size: 15px;
+}
+
+.link-2 {
+  color: #7e32dd;
+  text-decoration: none;
+}
+
+.link-3 {
+  color: #7e32dd;
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    text-align: center;
+  }
+}
+
+@font-face {
+  font-family: 'Fontawesome webfont 2';
+  src: url('../fonts/fontawesome-webfont_2.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sfprodisplay';
+  src: url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sfprodisplay';
+  src: url('../fonts/SFProDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sfprodisplay';
+  src: url('../fonts/SFProDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sfprodisplay';
+  src: url('../fonts/SFProDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Sfprodisplay';
+  src: url('../fonts/SFProDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
